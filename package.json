@@ -1,5 +1,5 @@
 {
-  "name": "test-webpack-bump",
+  "name": "react-app-polyfill-ie-error",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "@types/react": "^18.0.6",
     "@types/react-dom": "^18.0.2",
     "react": "^18.0.0",
+    "react-app-polyfill": "3.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.6.3",
@@ -37,7 +38,8 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "IE 11"
     ]
   }
 }
